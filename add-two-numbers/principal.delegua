@@ -1,0 +1,24 @@
+classe ListNode {
+    inteiro val;
+    ListNode proximo;
+
+
+}
+
+var addTwoNumbers = funcao(l1, l2) {
+
+}
+
+var l1 = ListNode(2);
+
+l1.proximo = ListNode(4);
+
+l1.proximo.proximo = ListNode(3);
+
+var l2 = ListNode(5);
+
+l2.proximo = ListNode(6);
+
+l2.proximo.proximo = ListNode(4);
+
+escreva(texto(addTwoNumbers(l1, l2)));
