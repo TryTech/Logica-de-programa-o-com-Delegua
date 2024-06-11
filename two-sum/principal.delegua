@@ -1,0 +1,19 @@
+funcao two_sum(numeros, alvo) {
+    var resultado = []
+    var object = {}
+
+    para (var i = 0; i < numeros.tamanho(); i = i + 1) {
+        se (object[numeros[i] - alvo]) {
+            resultado.adicionar(object[numeros[i] - alvo])
+            resultado.adicionar(i)
+        }
+
+        object[numeros[i]] = i
+    }
+
+    retorna resultado
+}
+
+var resposta = two_sum([3,2,4], 6) // [1,2]
+
+escreva(resposta)
